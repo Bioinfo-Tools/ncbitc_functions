@@ -1,3 +1,2 @@
-
 all:
-	gcc -o ncbitc ncbitc.c -Wall
+	gcc -o tax_class ncbitc.c -Wall
