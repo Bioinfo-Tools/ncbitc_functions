@@ -1,5 +1,4 @@
-
-# NCBITaxCollector
+# NCBITaxCollector Main Functions
 
 NCBI TaxCollector is a tool for using the GI field of the FASTA format to
 search taxonomy information in NCBI bases. It is designed to maximize
