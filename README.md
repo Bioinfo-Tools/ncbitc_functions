@@ -1,8 +1,8 @@
-# NCBITaxCollector Main Functions
+# NCBI-taxcollector Main Functions
 
-NCBI TaxCollector is a tool for using the GI field of the FASTA format to
+NCBI-taxcollector Main Functions is a tool for using the GI field of the FASTA format to
 search taxonomy information in NCBI bases. It is designed to maximize
-performance and allow many searches per second. NCBITaxCollector runs as
+performance and allow many searches per second. It runs as
 a command line tool and, for this reason, it is especially suitable for
 use in scripts.
 
@@ -63,7 +63,7 @@ Searching all name entries for a given tax id:
 	
 	real	0m0.001s
 	user	0m0.000s
-	sys		0m0.000s
+	sys	0m0.000s
 
 
 
@@ -80,7 +80,7 @@ Download and build the program:
 Download gi_taxid_nucl.dmp, names.dmp and nodes.dmp from NCBI's FTP site:
 
 	wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
-	tar xzf taxdump.tar.gz
+	tar -xzf taxdump.tar.gz
 
 
 # References
